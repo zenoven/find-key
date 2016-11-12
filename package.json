@@ -1,0 +1,14 @@
+{
+  "name": "find-key",
+  "version": "1.0.0",
+  "description": "find the way to the truth",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zenoven",
+  "license": "MIT",
+  "dependencies": {
+    "file-type": "^3.9.0"
+  }
+}
