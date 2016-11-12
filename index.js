@@ -7,11 +7,7 @@ function getString(data){
                 .replace(/_/g, 1)
                 .replace(/\n/g, ' ')
                 .split(' ')
-                .map((x,i) =>{
-                    let index = parseInt(x,2);
-                    let char = String.fromCharCode(index);
-                    return char;
-                })
+                .map((x) =>(String.fromCharCode(parseInt(x,2))))
                 .join('')
     return result;
 }
